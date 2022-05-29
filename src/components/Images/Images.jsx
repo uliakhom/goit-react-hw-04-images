@@ -52,6 +52,7 @@ const Images = () => {
     if (q !== '') {
       fetchImages();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [q, page]);
 
   const setSearch = ({ q }) => {
